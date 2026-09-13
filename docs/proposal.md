@@ -96,37 +96,40 @@
 
 \### 5.7. Інтеграція з Jira та CI/CD
 
-Параметр:		Технологія:
 
-Мови програмування	Python, TypeScript
+Платформа повинна підтримувати інтеграцію з Jira REST API для створення структурованих повідомлень про виявлені проблеми. Також передбачається інтеграція з GitHub Actions для автоматизації виконання перевірок та навантажувальних тестів у межах CI/CD-процесів.
 
-Backend Framework	FastAPI
+Параметр:		          Технологія:
 
-Frontend Framework	React
+Мови програмування	  Python, TypeScript
 
-API			REST API, OpenAPI
+Backend Framework	    FastAPI
 
-Архітектура		Client–Server, Modular Architecture
+Frontend Framework	  React
 
-ORM			SQLAlchemy
+API	REST API,         OpenAPI
 
-Database		PostgreSQL
+Архітектура		        Client–Server, Modular Architecture
 
-Background Tasks	Celery
+ORM			              SQLAlchemy
 
-Message Broker		Redis
+Database		          PostgreSQL
 
-Load Testing		k6
+Background Tasks	    Celery
 
-Containerization	Docker, Docker Compose
+Message Broker		    Redis
 
-CI/CD			GitHub Actions
+Load Testing		      k6
 
-Bug Tracking		Jira REST API
+Containerization	    Docker, Docker Compose
 
-Version Control		Git, GitHub
+CI/CD			            GitHub Actions
 
-API Documentation	Swagger / OpenAPI
+Bug Tracking		      Jira REST API
 
-Monitoring		Prometheus, Grafana — опціонально
+Version Control		    Git, GitHub
+
+API Documentation	    Swagger / OpenAPI
+
+Monitoring		        Prometheus, Grafana — опціонально
 
